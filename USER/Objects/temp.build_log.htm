@@ -1,0 +1,65 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.15
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: LYH LYH, LYH, LIC=X9630-BSRSD-4SYY4-FD59E-4GU9H-KI782
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Standard  Version: 5.15.0
+Toolchain Path:  E:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 2 (build 169)
+Assembler:       Armasm.exe V5.05 update 2 (build 169)
+Linker/Locator:  ArmLink.exe V5.05 update 2 (build 169)
+Library Manager: ArmAr.exe V5.05 update 2 (build 169)
+Hex Converter:   FromElf.exe V5.05 update 2 (build 169)
+CPU DLL:         SARMCM3.DLL V5.15.0
+Dialog DLL:      DCM.DLL V1.13.2.0
+Target DLL:      Segger\JL2CM3.dll V2.99.15.0
+Dialog DLL:      TCM.DLL V1.14.5.0
+ 
+<h2>Project:</h2>
+F:\高频头SX1262\程序\USER\temp.uvprojx
+Project File Date:  05/26/2020
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.05 update 2 (build 169)', folder: 'E:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'Target 1'
+compiling usart.c...
+..\SYSTEM\usart\usart.h(17): warning:  #9-D: nested comment is not allowed
+  //********************************************************************************
+..\SYSTEM\usart\usart.c(252): warning:  #223-D: function "vsnprintf" declared implicitly
+        vsnprintf((char *)USART1_TX_BUF, USART1_MAX_TX_LEN+1, fmt, arg_ptr);
+..\SYSTEM\usart\usart.c(248): warning:  #177-D: variable "i" was declared but never referenced
+        u16 i = 0;
+..\SYSTEM\usart\usart.c(304): warning:  #1-D: last line of file ends without a newline
+   
+..\SYSTEM\usart\usart.c: 4 warnings, 0 errors
+compiling main.c...
+..\SYSTEM\usart\usart.h(17): warning:  #9-D: nested comment is not allowed
+  //********************************************************************************
+main.c(20): warning:  #177-D: variable "times" was declared but never referenced
+        u16 times=0;
+main.c: 2 warnings, 0 errors
+compiling sx1262.c...
+..\HARDWARE\SX1262\sx1262.c(259): warning:  #550-D: variable "Status" was set but never used
+        uint8_t Status;
+..\HARDWARE\SX1262\sx1262.c(492): warning:  #550-D: variable "Status" was set but never used
+        uint8_t Status;
+..\HARDWARE\SX1262\sx1262.c(609): warning:  #550-D: variable "Status" was set but never used
+        uint8_t Status;
+..\HARDWARE\SX1262\sx1262.c: 3 warnings, 0 errors
+linking...
+Program Size: Code=6184 RO-data=276 RW-data=124 ZI-data=1924  
+".\Objects\temp.axf" - 0 Error(s), 9 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  F:\高频头SX1262\程序\USER\RTE
+  E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+</pre>
+</body>
+</html>
