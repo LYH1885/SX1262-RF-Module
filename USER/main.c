@@ -4,10 +4,7 @@
 #include "usart.h"
 #include "sx1262.h"
 #include "timer.h"
-//ALIENTEK miniSTM32开发板实验1
-//跑马灯实验  
-//技术支持：www.openedv.com
-//广州市星翼电子科技有限公司
+//主程序
 
 extern int RF_sent_flag;
 extern int TIM3_send_flag;
